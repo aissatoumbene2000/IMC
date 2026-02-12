@@ -21,5 +21,5 @@ if st.button("Calculer l'IMC"):
 
         st.info(f"**Catégorie : {categorie}")
     else:
-        st.error("La taille doit être supérieure à 0 !")​
+        st.info("La taille doit être supérieure à 0 !")​
 
