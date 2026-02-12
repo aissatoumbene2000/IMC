@@ -20,6 +20,6 @@ if st.button("Calculer l'IMC"):
             categorie = "🔴 Obésité"
 
         st.info(f"**Catégorie : {categorie}")
-    # else:
-    #     st.info("La taille doit être supérieure à 0 !")​
+    else:
+        st.write("La taille doit être supérieure à 0 !")​
 
