@@ -1,5 +1,4 @@
 import streamlit as st
-
 st.title("🩺 Calculateur d'IMC")
 
 poids = st.number_input("Poids (kg) :", min_value=0.1, value=70.0, step=0.1)
